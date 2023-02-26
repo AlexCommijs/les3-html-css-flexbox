@@ -1,1 +1,126 @@
 /*Schrijf hier jouw css*/
+
+Space cadet #151E3F
+Oxzford blue #030027
+Beige #F2F3D9
+Buff #DC9E82
+Old rose #C16E70
+/*////////////////////////////////////////////////////////////////////////
+           Table of Contents:
+               1. Global Styles
+               2. Typografie
+               3. Areas
+                   3.1 Header
+                   3.2 Main
+////////////////////////////////////////////////////////////////////////*/
+
+    /*////////////////////////
+      1. Global Styles
+////////////////////////*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: #1C2B32;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vh;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h1, h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+
+header {
+    background-color: #030027;
+    background-size: 100%;
+    color: white;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0 40px 0 40px;
+}
+
+.item-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    list-style-type: none;
+}
+
+/*///////////// 3.2 Main /////////////*/
+main {
+    background-color: #F2F3D9;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.title-subtitle {
+    margin: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #C16E70;
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 350px;
+    margin: 0 40px 0 40px;
+}
+
