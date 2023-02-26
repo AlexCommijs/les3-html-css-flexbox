@@ -37,7 +37,7 @@ main {
 article {
     flex-basis: auto;
     flex-grow: 1;
-    flex-shrink: ;
+    flex-shrink: 1;
 }
 footer {
     flex-basis: 150px;
