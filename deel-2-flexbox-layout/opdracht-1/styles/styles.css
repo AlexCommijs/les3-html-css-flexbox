@@ -19,35 +19,23 @@ main    {
     flex-shrink: 0;
 }
 article {
-    /*Omdat article in een row-container staat, gaat flex-basis hier over de BREEDTE */
     flex-basis: 80vw;
-    /*Het element mag wél kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 1;
-    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
-    /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 1;
 }
 
 nav {
-    /*Omdat nav in een row-container staat, gaat flex-basis hier over de BREEDTE */
     flex-basis: 10vw;
-    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
-    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
-    /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 3;
 }
 
 aside {
-    /*Omdat nav in een row-container staat, gaat flex-basis hier over de BREEDTE */
     flex-basis: 10vw;
-    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
-    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
-    /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 2;
 }
 footer {
